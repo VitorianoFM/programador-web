@@ -1,0 +1,25 @@
+body,html {
+    height: 100vh;
+}
+
+.dad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.sons {
+background-color: #000;
+color: #fff;
+width: 200px;
+height: 200px;
+}
+
+.special {
+    flex-grow: 1;
+    background-color: red;
+}
