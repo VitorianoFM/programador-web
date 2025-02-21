@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+
+.grid-container > div {
+    background-color: aqua;
+    color: #000;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.coluna1 {
+    background-color: blueviolet;
+}
+
+.colunar {
+    background-color: blue;
+}
