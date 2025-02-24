@@ -25,9 +25,9 @@
 .conteudo {
     display: grid;
     grid-template-areas: 
-        "header header header header"
-        "menu conteudo conteudo login"
-        "menu conteudo conteudo anuncios";
+        "header header header"
+        "menu conteudo conteudo"
+        "menu conteudo conteudo";
     grid-template-rows: 80px 200px 200px;    
 }
 
@@ -39,19 +39,11 @@
 .item2 {
     background-color: blue;
     grid-area: menu;
+    width: 200px;
 }
 
 .item3 {
     background-color: chartreuse;
     grid-area: conteudo;
-}
-
-.item4 {
-    background-color: chocolate;
-    grid-area: login;
-}
-
-.item5 {
-    background-color: cornflowerblue;
-    grid-area: anuncios;
+    width: 715px;
 }
