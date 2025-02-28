@@ -1,0 +1,33 @@
+@keyframes pulsar {
+    0%   {width: 250px; height: 250px; background-color: red;}
+    25%  {width: 350px; height: 350px; background-color: red;}
+    50%  {width: 400px; height: 400px; background-color: red;}
+    75% {width: 350px; height: 350px; background-color: red;}
+    100% {width: 250px; height: 250px; background-color: red;}
+
+
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width: 250px;
+    height: 250px; 
+    border-radius: 50%;
+    animation-name: pulsar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+
+}

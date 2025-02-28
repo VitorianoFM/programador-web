@@ -1,0 +1,24 @@
+@keyframes digitar {
+    from { width: 0; }
+    to { width: 103%; }
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0;
+    animation: digitar 4s steps(30, end);
+    animation-iteration-count: infinite;
+}

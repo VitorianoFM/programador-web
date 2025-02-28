@@ -1,0 +1,25 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width: 200px;
+    height: 200px; 
+    background-color: aqua;
+    transition-property: border;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.central:hover {
+border: 3px solid;
+
+}
