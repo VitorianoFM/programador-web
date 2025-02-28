@@ -1,0 +1,28 @@
+@keyframes carregar {
+    0% { width: 0%; }
+    100% { width: 100%}
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.central .centralprogresso {
+    position: absolute;
+    height: 100%;
+    background-color: #add555;
+    animation: carregar 5s infinite;
+}
